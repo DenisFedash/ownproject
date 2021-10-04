@@ -1,0 +1,122 @@
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+button {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 35px;
+}
+
+.header-logo {
+  display: flex;
+  margin-right: 15px;
+  align-items: center;
+}
+
+.header-list:not(:last-child) {
+  margin-right: 58px;
+}
+
+.header-list__fullname {
+  margin-bottom: 3px;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.5em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #323a49;
+}
+
+.header-list__name {
+  font-weight: 800;
+  font-size: 23px;
+  line-height: 1.47em;
+  text-transform: uppercase;
+  color: #323a49;
+}
+
+.header__version:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.version-link {
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #275ba8;
+}
+
+.icon-version {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.header-office {
+  display: flex;
+}
+
+.header__login:not(:last-child) {
+  margin-right: 48px;
+}
+
+.link-login {
+  display: flex;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.5em;
+  color: #323a49;
+}
+
+.icon-login {
+  margin-right: 10px;
+}
+
+.nav {
+  background-color: tomato;
+}
+
+.nav__button {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.nav__button:not(:last-child) {
+  padding: 14.5px 30px;
+}
+/*# sourceMappingURL=main.css.map */
