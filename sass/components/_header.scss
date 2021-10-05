@@ -25,6 +25,11 @@
   text-transform: uppercase;
 
   color: #323a49;
+
+  &:hover,
+  &:focus {
+    color: violet;
+  }
 }
 
 .header-list__name {
@@ -34,6 +39,10 @@
   text-transform: uppercase;
 
   color: #323a49;
+  &:hover,
+  &:focus {
+    color: violet;
+  }
 }
 
 .header__version:not(:last-child) {
@@ -45,11 +54,17 @@
   line-height: 1.5em;
 
   color: #275ba8;
+
+  &:hover,
+  &:focus {
+    color: violet;
+  }
 }
 
 .icon-version {
   margin-right: 10px;
   vertical-align: middle;
+  fill: #d5deec;
 }
 
 .header-office {
@@ -69,8 +84,16 @@
   line-height: 1.5em;
 
   color: #323a49;
+  &:hover,
+  &:focus,
+  &:hover .icon-login,
+  &:focus .icon-login {
+    color: violet;
+    fill: violet;
+  }
 }
 
 .icon-login {
   margin-right: 10px;
+  fill: #275ba8;
 }

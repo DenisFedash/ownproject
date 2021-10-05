@@ -1,0 +1,52 @@
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.menu-list__item {
+  position: relative;
+  width: calc((100% - 2 * 30px) / 2);
+  margin: 15px;
+  height: 140px;
+  background-color: #f4f8fd;
+}
+
+.menu-list__link {
+  display: flex;
+
+  &::after {
+    content: "";
+    background-size: contain;
+    display: block;
+
+    background-repeat: no-repeat;
+
+    width: 24px;
+    height: 24px;
+    background-image: url(../../images/svg-menu/arrow-line.svg);
+    margin-right: 40px;
+    margin-left: auto;
+    margin-top: 58px;
+  }
+}
+
+.menu-list__icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 35px 35px;
+}
+
+.menu-list__text {
+  position: absolute;
+  top: 47%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 1.52em;
+
+  width: 295px;
+  vertical-align: middle;
+}
