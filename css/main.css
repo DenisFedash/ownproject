@@ -87,7 +87,7 @@ img {
 }
 
 .header__login:not(:last-child) {
-  margin-right: 48px;
+  margin-right: 40px;
 }
 
 .link-login {
@@ -102,21 +102,29 @@ img {
   margin-right: 10px;
 }
 
-.nav {
+.section-nav {
+  width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: tomato;
 }
 
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__item {
+  margin: 0;
+}
+
 .nav__button {
-  font-weight: bold;
   font-size: 14px;
   line-height: 1.5em;
   text-transform: uppercase;
   border: 1px solid rgba(255, 255, 255, 0.05);
   background-color: transparent;
   color: #ffffff;
-}
-
-.nav__button:not(:last-child) {
   padding: 14.5px 30px;
 }
 /*# sourceMappingURL=main.css.map */
